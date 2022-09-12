@@ -1,0 +1,36 @@
+.categoriesMenu{
+    display: flex;
+}
+
+.categoriesMenu>a{
+    display: flex;
+    padding-left: 15px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.categoriesMenu>a:hover{
+    font-weight: bold;
+    color: green;
+}
+
+.header{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+.item{
+    display: flex;
+}
+
+.items{
+    width: 200px;
+    height: 100px;
+}
+
+.items>div{
+    padding: 10px;
+    margin: 10px;
+}
